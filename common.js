@@ -4,12 +4,14 @@ const a = + prompt('Enter the first number?');
 const  b = + prompt('Enter the second number?');
 const c = + prompt('Enter the third number?');
 
-let sum = (a + b + c) / 3;
+const sum = (a + b + c) / 3;
 
 
 if (!isNaN(a) && !isNaN(b) && !isNaN(c)){
 
-    alert(`(${a} + ${b} + ${c}) / 3 = ${sum}`);
+
+
+   alert(`(${a} + ${b} + ${c}) / 3 = ${sum}`);
 
 } else {
     alert('Not a valid operation.')
